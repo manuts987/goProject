@@ -20,4 +20,16 @@ Description: À partir d'un site web, trouver un moyen de s'inflitrer dans le se
 (si les étapes facultatives ne sont pas possible)
 - faire les étapes facultatives à la main
 
- 
+INFORMATION IMPORTANT POUR CODER EN GOLANG----------------
+
+1) lien pour bien comprendre comment fonctionne les modules et l'importation de module: 
+https://www.digitalocean.com/community/tutorials/understanding-package-visibility-in-go
+
+REMARQUE: faire: 
+$go get <le package que l'on souhaite importer> 
+pour pouvoir run le programme car dans le lien ci-haut, il ne met pas le package en tant que require
+
+lien pour l'installation et la configuration de la workspace:
+https://www.digitalocean.com/community/tutorial-series/how-to-code-in-go
+
+
