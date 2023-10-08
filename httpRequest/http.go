@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-func getBodyRequest(url string) string {
+func GetBodyRequest(url string) string {
 	var resp *http.Response = makeRequest(url)
 	var body string
 	var err error
@@ -19,7 +19,7 @@ func getBodyRequest(url string) string {
 	}
 }
 
-func getheaderRequest(url string) string {
+func GetheaderRequest(url string) string {
 	var resp *http.Response = makeRequest(url)
 	var header string
 	var err error
