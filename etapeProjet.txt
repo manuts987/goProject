@@ -33,3 +33,31 @@ lien pour l'installation et la configuration de la workspace:
 https://www.digitalocean.com/community/tutorial-series/how-to-code-in-go
 
 
+
+Connaissance 
+
+
+Ressource Record(RR):  contient des informations spécifiques liées à un domaine. Les Ressources Records joue un rôle essentiel dans la resolution DNS en associant des informations telles que:
+- Address Record: IPv4 liée au domaine name
+- AAAA Record: IPv6 liée au domaine name
+- CNAME record: alias pour un nom de domaine
+- MX Record: Server de messagerie responsable pour la réception des e-mails destiné au domaine
+- TXT Record: info arbitraire liée à un domaine, souvent utiliser pour stocker des informations de sécurité ou la vérification de la propriété du domaine
+- NS Record: indique le server de nom pour ce domaine (server de nom: gère la translation entre le domain name et l'IP)
+- SAO Record: contient les information d'autorité pour un domaine
+- SRV Record: il spécifie les services disponibles au sein d'un domaine, comme VoIP
+- CAA Record: il spécifie quelles autorités de certification sont autorisées à émettre des certificats pour un domaine, renforçant ainsi la sécurité SSL/TLS
+
+
+
+
+Comment avoir le MX Record d'un domaine? nslookup -type=nx exemple.com
+
+
+
+
+
+
+
+
+

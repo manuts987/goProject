@@ -49,3 +49,9 @@ func getHostname(url string) string {
 	}
 	return hostname
 }
+
+// Dans la prochaine partie on va essayer de coder un scan de port nmap
+func scanPort(ip []net.IP) {
+	
+}
+
